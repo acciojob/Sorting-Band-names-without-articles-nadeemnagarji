@@ -23,21 +23,6 @@ sortedBandNames.forEach((bandName) => {
   li.textContent = bandName;
   ul.appendChild(li);
 });
-In this code:
-
-We define an array called bandNames that contains the list of band names.
-
-We create a stripArticles function that takes a name as input and removes any articles ('a', 'an', 'the') from the beginning of the name using a regular expression.
-
-We sort the bandNames array based on the cleaned band names, excluding articles, using the localeCompare method for lexicographic sorting.
-
-We retrieve the ul element with the id 'bands' using document.getElementById.
-
-We iterate through the sorted band names, create li elements for each one, and append them to the ul element.
-
-When you load this script, it will sort the band names in lexicographic order while ignoring articles and display them as a list in the ul element.
-
-
 
 
 
